@@ -29,3 +29,146 @@ header p{
     font-weight: normal;
     width: 600px;
 }
+.section_3 {
+    padding-top: 100px;
+    height: 460px;
+}
+.section_3 h2{
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 60%;
+    line-height: 69px;
+    font-size: 60px;
+}
+.section_3 p {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 60%;
+}
+.section_3 div {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+}
+.section_3 div iframe {
+    margin-right: 20px;
+}
+.section_4{
+    padding: 200px 90px 100px 90px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+.section_4 h6{
+    color: #2F80ED;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 20px 0 0;
+    width: 175px;
+}
+.section_4 p{
+    line-height: 34px;
+    font-size: 24px;
+    margin: 0;
+    width: 80%;
+    min-width: 784px;
+}
+.section_5{
+    background-color: #F2F2F2;
+    padding-top: 100px;
+    height: 790px;
+    text-align: center;
+    position: relative;
+}
+.section_5 h2{
+    font-size: 120px;
+    line-height: 1.15;
+    width: 648px;
+    margin: 0 auto 70px auto;
+    position: relative;
+    z-index: 3;
+}
+.section_5 div{
+    position: relative;
+    z-index: 3;
+    display: flex;
+}
+.section_5 p{
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    z-index: 3;
+    margin: 0 5px 0 auto;
+    
+}
+.section_5 a{
+    font-size: 36px;
+    line-height: 51px;
+    z-index: 4;
+    color: black;
+    text-decoration: none;
+    right: 48px;
+    top: 50%;
+    transition: opacity 0.5s linear;
+    margin-left: 48px
+}
+.section_5 img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.section_6{
+    padding: 100px 0;
+}
+.section_6 h2{
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 60%;
+    line-height: 69px;
+    font-size: 60px;
+}
+.section_6 p{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.section_6 ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1100px;
+    padding: 0;
+}
+.section_6 ul li{
+    list-style: none;
+    margin: 60px 0;
+}
+.section_6 ul li:not(.section_6 ul li:nth-of-type(4n)){
+    margin: 60px 30px 60px 0;
+}
+.section_6 ul li h3{
+    margin: 0 auto 20px auto;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section_6 ul li p{
+    width: 250px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto 20px auto;
+    text-align: left;
+}
+.section_7{
+    padding-top: 105px;
+    background-color: #F2F2F2;
+}
