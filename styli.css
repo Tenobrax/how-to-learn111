@@ -1,3 +1,11 @@
+@keyframes pps {
+    from {
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
 header{
     background-color: #F2F2F2;
     position: relative;
@@ -7,6 +15,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 .Yandex{
     width: 180px;
@@ -28,6 +37,99 @@ header p{
     font-size: 18px;
     font-weight: normal;
     width: 600px;
+}
+header div{
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    right: 0;
+    top: 64px;
+    background-color: #2F80ED;
+    rotate: -15deg;
+    animation: pps 20s linear infinite normal;
+}
+.section_1{
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.section_1 h6{
+    width: 100px;
+    color: #2F80ED;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+
+}
+.section_1 div {
+    max-width: 900px;
+    line-height: 34px;
+    font-size: 24px;
+    margin: 0;
+    width: 80%;
+}
+.section_1 div p{
+    margin: 0;
+}
+.section_1 div p:not(.section_1 div p:last-of-type){
+    margin-bottom: 15px;
+}
+.section_2{
+    padding-top: 100px;
+}
+.section_2 h2{
+    line-height: 69px;
+    font-size: 60px;
+    margin: 0 auto 20px auto;
+    width: 60%;
+    text-align: center;
+}
+.section_2_p{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.section_2 ul{
+    display: flex;
+    flex-wrap: wrap;   
+    list-style: none; 
+    text-align: center;
+    padding: 0;
+    width: 920px;
+    justify-content: left;
+    align-items: start;
+    margin: 0 auto;
+}
+.section_2 ul li{
+    width: 25%;
+    margin: 60px 0;
+    max-width: 230px;
+}
+.section_2 ul li:not(.section_2 ul li:nth-of-type(3n)){
+    margin-right: 100px;
+}
+.section_2 ul li img{
+    width: 160px;
+    height: 160px;
+    margin: 0 40px 43px 40px;
+    border-radius: 50%;
+}
+.section_2 ul li h4{
+    margin: 0 0 16px 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.section_2 ul li p{
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto;
+    width: 230px;
 }
 .section_3 {
     padding-top: 100px;
@@ -97,6 +199,8 @@ header p{
     position: relative;
     z-index: 3;
     display: flex;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
 .section_5 p{
     line-height: 51px;
@@ -169,6 +273,129 @@ header p{
     text-align: left;
 }
 .section_7{
-    padding-top: 105px;
+    padding: 105px 105px 0 105px;
     background-color: #F2F2F2;
+}
+.section_7 h3{
+    margin: 0 auto;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.section_7 h2{
+    margin: 0 auto;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.section_7 p{
+    width: 790px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 50px auto 36px 0;
+}
+.section_7 h4{
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0 auto 10px 0;
+}
+.section_7 .section_7_p_1{
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 auto 0 0;
+}
+.section_7 div{
+    padding: 0;
+    margin-top: 68px;
+    align-items: flex-start;
+    display: flex;
+    height: 608px;
+    list-style: none;
+}
+.section_7 div a{
+    margin-left: 20px;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2F80ED;
+    transition: opacity 0.5s linear;
+}
+.section_8{
+    padding: 90px 0;
+    background-color: #1f1f1f;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.section_8 h3{
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 60%;
+    line-height: 69px;
+    font-size: 60px;
+    position: relative;
+    z-index: 2;
+}
+.section_8 .section_8_p{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0 0 80px 0;
+    position: relative;
+    z-index: 2;
+}
+.section_8 ul{
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+.section_8 ul li{
+    margin: 0 0 80px 0;
+}
+.section_8 ul li:not(.section_8 ul li:nth-of-type(5n)){
+    margin: 0 20px 80px 0;
+}
+.section_8 ul li h4{
+    margin: 0 auto 20px auto;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section_8 ul li p{
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    width: 200px;
+    margin: 0 auto;
+}
+@keyframes rotate {
+         from {
+             rotate: 0deg;
+            }
+        to{
+            rotate: 360deg;
+            }
+        }
+.section_8 img{
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    right: -210px;
+    animation: rotate 20s linear infinite normal;
+    pointer-events: none;
 }
